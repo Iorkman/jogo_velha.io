@@ -32,6 +32,7 @@ $(function(){
     $(document).on("click","#A_1",function(){
         if(jogador==true){
             $("#A_1").html("X");
+            $("#A_1").attr("id","usado");
             jogador=false;
         }
         else{
